@@ -1,0 +1,22 @@
+.best-collection {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    color: #E76F51;
+    margin: 0;
+    position: relative;
+}
+.best-collection::after {
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 2px;
+    background-color: #E76F51;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+.img-greyScale {
+    filter: grayscale(100%);
+}
